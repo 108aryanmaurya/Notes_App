@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: aqua;
+display: inline;
+/* display: flex; */
+/* flex-direction: column; */
+
+
+}
+
+.note{
+    margin: 55px;
+    border: 2px solid black;
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    /* display: inline-block; */
+     /* display: flex;  */
+     /* flex-direction: column;  */
+}
+.flex{
+display: flex;
+}
+.t-icons{
+ align-items: center;
+ justify-content: right;
+ font-size: 25px;
+}
+.t-icons i{
+    margin: 0 10px;
+}
+
+.note .head{
+    background-color: rgb(111, 224, 41);
+    /* height: 50px; */
+    padding: 10px;
+}
+.t-area {
+     /* display: none; */
+     width: 100%;
+     height: 100%;
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .t-area2 {
+        width: 100%;
+        height: 100%;
+    }
+    textarea{
+        outline: none;
+        display: inline-block;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    width: 100%;
+    border: noned;
+    height:91%;
+    /* height:100%; */
+}
+.t-area2 textarea{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    width: 100%;
+    display: inline-block;
+
+    border: noned;
+    height: 100%;
+}
+.hidden{
+    display: none;
+}
+body{
+    /* display: flex;
+   align-items: center;
+   justify-content: center; */
+}
+.btn2{
+    width: 30%;
+    /* margin: 10px; */
+    margin: 30px auto;
+    padding: 10px;
+    display: flex;
+justify-content: center;
+align-items: center;
+/* display: flex; */
+/* display: block; */
+
+}
